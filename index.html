@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<head></head>
+ <script src="https://code.jquery.com/jquery-3.1.1.min.js"> </script>
+<style>
+.button {
+    background-color: white;
+    border:20px;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+ 
+ div{
+ text align:right;
+ height:400px;
+ width:500px;
+ background-size :contain;
+ border-radius:20px 20px;
+}
+
+.first{
+
+ background :url("images/ttj.jpg");                                 
+ background-size :contain;
+ width: 800;
+ height: 900;
+ border-radius: 20px;
+ background-repeat: no-repeat;
+}
+.second{
+ background : url("images/mm.jpg");
+ width: 90;
+ height: 10;
+ background-size :contain;
+ background-repeat: no-repeat;
+ 
+}
+.third{
+ background:url("images/goa.jpg");
+ width:10;
+ height: 10;
+ background-size :contain;
+ background-repeat: no-repeat;
+}
+.fourth{
+ background: url("images/jaipur.jpg");
+ width: 90;
+ height: 10;
+ background-size :contain;
+ background-repeat: no-repeat;
+}
+.fifth{
+ background:url("images/ka.jpg");
+ width: 90;
+ height: 10;
+ background-size :contain;
+ background-repeat: no-repeat;
+}
+.sixth{
+background:url("images/kk.jpg");
+width: 90;
+height: 10;
+background-size :contain;
+background-repeat: no-repeat;
+}
+ul{
+padding:0px;
+background : black;
+}
+li{
+display:inline;
+padding: 100px 50px 100px 50px;
+}
+
+img{
+ margin: 10px 0px 0px 0px ;
+ border: 7px solid white;
+
+}
+
+body {
+  text-align: center;
+  background: url("images/as.jpg");
+ background:cover;
+  
+  background-position:absolute;
+  background-repeat:  repeat;
+  
+}
+a{
+color: white;
+}
+
+h1 {
+  text-align:center;
+height: 200px;
+  font-family: barrio;
+  font-size: 70px;
+  color: rgb(81, 96,179);
+}
+h2{
+font-family:serif;
+text-align:left;
+color: rgb(80,80,94);
+font-size:50px;
+}
+p{
+font-size:20px;
+padding: 2px;
+}
+
+
+input {
+      margin: 0 0 30px 0;}
+    
+      small{
+           opacity:0;
+           }
+       .show-description p{
+                        height:150px;
+                        }
+    .show-description small{
+                             opacity:1;
+                             }
+
+</style>
+<body>
+<h1>INDIAN TOURISM</h1>
+
+<h2>" Welcome to indian tourism if want a guide u r welcome"</h2>
+
+<article> hello everyone on this site u can plan yours upcomming holidays  to any of the populaur
+places in india </article>
+
+<p>plzz select the type of vacation which  u want or</p>
+<ul>
+      <li><a href="#">short vacations</a></li>
+      <li><a href="#">long vacations</a></li>
+      <li><a href="#">moderate vacations</a></li>
+</ul>
+
+
+<article> SOME OF THE POPUPAR TOURIST PLACES ARE GIVEN BELOW U CAN MAKE CHOICE OF THEM</article>
+
+<h2>  AGRA</h2>
+
+<div class="first show-description">
+
+
+	<p style ="color:white;"> <small>The Taj Mahal ( meaning Crown of the Palace) is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra.</br>
+	 <small> was commissioned in 1632 by the Mughal emperor, Shah Jahan (reigned 1628–1658), to house the tomb of his favourite wife, Mumtaz Mahal. </small></p>
+	<button>interested in going </button>
+</div>
+
+<h2>MANALI</h2>
+
+<div class="second show-description">
+	<p style = "color:white;"><small>Manali is a Valley nestled in the mountains of the Indian state of Himachal Pradesh near the northern end of the Kullu Valley, at an altitude of 2,050 m </p>
+	<button>interested in going </button>	
+</div>
+
+<h2>GOA</h2>
+
+<div class="third show-description">
+
+	<p style="color:white;"><small>one goa is a beautiful state   in India which is located within the coastal region known as the Konkan in western India. Bounded by Maharashtra to the north and Karnataka to the east and south, the Arabian Sea forms its western coastGoa is Famous for its pristine beaches, infact 90% of all the tourism in Goa happens only for its beautiful beaches in Coastal Areas.</small>
+	</p>
+	<button>interested in going </button>		
+</div>
+
+<h2>JAIPUR</h2>
+
+<div class="fourth show-description">
+
+<p style="color:white;"><small>Jaipur is also popularly known as the Pink City, is the capital of the Indian state of Rajasthan.</br>
+ Lots of people flock to Jaipur to view the various forts and monuments in Jaipur which reflect its glorious past. Tourism is a significant part of Jaipur’s economy. Some of the world’s best hotels are located here.</small>
+</p>
+<button>interested in going </button>
+</div>
+
+<h2>KASHMIR</h2>
+
+<div class="fifth show-description">
+
+
+<p style="color:red;"><small>Kashmir was once called Heaven on Earth, and once of the most beautiful places in the world. However, in last couple of decades, terrorism has faded its charm – A place home to Himalayan Ranges.</small>
+</p>
+<button>interested in going </button>
+</div>
+
+<h2>KANYAKUMARI</h2>
+
+<div class = "sixth show-description">
+
+<p style="color:red;"><small> Kanyakumari is especially popular in India for its spectacular and unique sunrise and sunset. The confluence of three ocean bodies – the Bay of Bengal, the Indian Ocean, and the Arabian Sea – makes the sunrise and sunset even more special. On balmy, full-moon evenings, one can also see the moon-rise and sunset at the same time – on either side of the horizon.</small></p>
+<button>interested in going </button>
+</div>
+
+<h3> FOR MORE UPDATES AND OFFERS PLEASE SUBSCRIBE</h3>
+<input type= "email" placeholder=" enter email">
+<input type= "submit">
+
+<script>alert("Javascript works!")
+           $('div').on('click',function() {$(this).toggleClass('show-description');}); </script>
+
+</html>
+
